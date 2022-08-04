@@ -1,34 +1,17 @@
-.text-black {
-  color: $black;
-}
-
-.text-primary {
-  color: $primary-color;
-}
-
-.text-gray {
-  color: $gray;
-}
-
-.text-black {
-  color: $black;
-}
-
-.text-white {
-  color: $white;
-}
-
-.bg-primary {
-  background: $primary-color;
-}
-
 .d-flex {
   display: flex;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.lh-lg {
+  line-height: 1.64285;
+}
+
 .text-lg {
   font-size: 2rem;
-  line-height: 1;
 }
 
 .text-sm {
@@ -43,16 +26,32 @@
   font-weight: 500;
 }
 
-.text-center {
-  text-align: center;
-}
-
 .text-special {
   font-family: "Fraunces", serif;
 }
 
-.lh-md {
-  line-height: 1.64285;
+.text-primary {
+  color: $primary-color;
+}
+
+.text-black {
+  color: $black;
+}
+
+.text-gray {
+  color: $gray;
+}
+
+.text-white {
+  color: $white;
+}
+
+.bg-primary {
+  background: $primary-color;
+}
+
+.mb-2 {
+  margin-bottom: 8px;
 }
 
 .mb-5 {
