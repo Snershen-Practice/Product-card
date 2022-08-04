@@ -10,8 +10,8 @@
     background: center/cover url(../img/image-product-desktop.jpg);
   }
   .content {
-    padding: 32px;
     width: 300px;
+    padding: 32px;
     flex-direction: column;
     justify-content: space-between;
   }
@@ -35,6 +35,34 @@
     }
     &:active {
       background-color: #1a4032;
+    }
+  }
+}
+
+@include mobile {
+  .card {
+    margin: 28px 16px;
+    flex-direction: column;
+    width: 343px;
+    h1 {
+      margin-bottom: 16px;
+    }
+    .subtitle {
+      margin-bottom: 13px;
+    }
+    .pic {
+      background: center/cover url(../img/image-product-mobile.jpg);
+      @include size(343px, 240px);
+    }
+    .content {
+      padding: 24px;
+      width: 343px;
+    }
+    .price {
+      margin-bottom: 20px;
+    }
+    p {
+      margin-bottom: 24px;
     }
   }
 }

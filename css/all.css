@@ -78,6 +78,20 @@ a {
   display: inline-block;
 }
 
+.attribution {
+  line-height: 1.5;
+}
+
+@media (max-width: 375px) {
+  body {
+    height: auto;
+  }
+  br {
+    content: "";
+    display: none;
+  }
+}
+
 .btn {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -176,8 +190,8 @@ a {
 }
 
 .card .content {
-  padding: 32px;
   width: 300px;
+  padding: 32px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -213,5 +227,37 @@ a {
 
 .card .btn-addCart:active {
   background-color: #1a4032;
+}
+
+@media (max-width: 375px) {
+  .card {
+    margin: 28px 16px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 343px;
+  }
+  .card h1 {
+    margin-bottom: 16px;
+  }
+  .card .subtitle {
+    margin-bottom: 13px;
+  }
+  .card .pic {
+    background: center/cover url(../img/image-product-mobile.jpg);
+    width: 343px;
+    height: 240px;
+  }
+  .card .content {
+    padding: 24px;
+    width: 343px;
+  }
+  .card .price {
+    margin-bottom: 20px;
+  }
+  .card p {
+    margin-bottom: 24px;
+  }
 }
 /*# sourceMappingURL=all.css.map */

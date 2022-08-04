@@ -18,3 +18,17 @@ a {
   text-decoration: none;
   display: inline-block;
 }
+
+.attribution {
+  line-height: 1.5;
+}
+
+@include mobile {
+  body {
+    height: auto;
+  }
+  br {
+    content: "";
+    display: none;
+  }
+}
